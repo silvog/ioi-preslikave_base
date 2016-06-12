@@ -13,6 +13,14 @@ Pri implementaciji smo uporabili naslednje ključne knjižnice:
 * server - koda za shranjevanje audio datotek in zapis v podatkovno bazo, nastavitve za podatkovno bazo (naslov, uporabniško ime, geslo)
 * js - koda za nalaganje in uporabo knjižnic, najpomembnejše faceTracking.js in audioRecorder.js.
 
+Vsak .html dokument ima pripadajočo .js skripto. Po korakih aplikacije si dokumenti sledijo v naslednjem zaporedju:
+
+* index - faceTrackijg.js
+* introcudction - intrduction.js
+* colorPick - colorSelectSampler.js, colorSampler/color-sampler.min.js
+* colorNaming - colorNaming.js
+* colorNamePlaylist - colorNamePlaylist.js
+
 ###Uporaba aplikacije
 Uporabnik na vstopni strani klikne na gumb Start audio, ob kliku katerega se odpre dialog za izbiro mikrofona. Po izbiri
 audio vhoda uporabnik klikne na gumb Start video s katerim izbere video vhod. Po izbiri video vhoda se prikaže video stream
@@ -37,7 +45,9 @@ Tabela za metaforične preslikave vsebuje naslednje stolpce:
 ###Predvajanje obstoječih zapisov
 V zadnjem koraku aplikacije se izvede koda skripte **js/colorNamePlaylist.js**, ki kliče **server/get_list.php** s katerim se pridobi
 seznam shranjenih datotek in izbranih barv uporabnika. Predponi imena datoteke, ki se prebere iz podatkovne baze, pripnemo
-**_user** in dobimo popolno ime datoteke, ki je shranjena v datoteki **preslikave_uploads**.
+**_user** in dobimo popolno ime datoteke - slike uporabika, ki je shranjena v datoteki **preslikave_uploads**. Sama predpona
+se uporabi za branje audio datoteke - izjava uporabika. Slika uporabika skupaj z izjavo in izbranimi barvami se prikaže skupaj na
+pogledu do prikaza naslednjega vnosa.
 
 Template used:
 
