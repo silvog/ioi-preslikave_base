@@ -24,6 +24,8 @@ predpona imena shranjenih datotek, izbrani barvi in povprečna barva pa se shran
 
 ###Struktura baze
 Pri implementaciji smo uporabili MySQL bazo. Izvorna koda, ki vpisuje v bazo se nahaja v **server/database_insert.php**.
+Skripta **js/audioRecorder.js** vsebuje izvorno kodo, ki kliče funkcije za shranjevanje datotek in pisanje v podatkovno bazo.
+Nastavitve uporabniškega imena, gesla, ime strežnika in ime tabele so zapisane v **server/database_credentials.php**.
 Tabela za metaforične preslikave vsebuje naslednje stolpce:
 
 * cas - datetime
@@ -32,6 +34,10 @@ Tabela za metaforične preslikave vsebuje naslednje stolpce:
 * desna_barva - varchar(250)
 * povprecna_barva - varchar(250)
 
+###Predvajanje obstoječih zapisov
+V zadnjem koraku aplikacije se izvede koda skripte **js/colorNamePlaylist.js**, ki kliče **server/get_list.php** s katerim se pridobi
+seznam shranjenih datotek in izbranih barv uporabnika. Predponi imena datoteke, ki se prebere iz podatkovne baze, pripnemo
+**_user** in dobimo popolno ime datoteke, ki je shranjena v datoteki **preslikave_uploads**.
 
 Template used:
 
