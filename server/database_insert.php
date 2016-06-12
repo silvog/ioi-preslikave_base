@@ -17,7 +17,7 @@ if (isset($_POST['predpona'])){
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "INSERT INTO aktivnost (cas, predpona, leva_barva, desna_barva, povprecna_barva)
+        $sql = "INSERT INTO $tablename (cas, predpona, leva_barva, desna_barva, povprecna_barva)
         VALUES ( '$cas', '$predpona', '$leva_barva', '$desna_barva', '$povprecna_barva')";
 
         if ($conn->query($sql) !== TRUE) {

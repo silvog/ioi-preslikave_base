@@ -8,7 +8,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT cas, predpona, leva_barva, desna_barva, povprecna_barva FROM aktivnost";
+$sql = "SELECT cas, predpona, leva_barva, desna_barva, povprecna_barva FROM $tablename";
 $result = $conn->query($sql);
 $datoteke = array();
 if ($result->num_rows > 0) {

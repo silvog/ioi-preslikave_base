@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     var timeToRecord = 7000;
     var bar = new ProgressBar.Line('#progressLine', {
-        strokeWidth: 4,
+        strokeWidth: 6,
         easing: 'easeInOut',
         duration: timeToRecord,
         color: '#FFEA82',

@@ -4,5 +4,5 @@ $(document).ready(function () {
         $('#mainContent').load('colorPick.html');
     }
 
-    setTimeout(colorPickContent, 30000);
+    setTimeout(colorPickContent, 20000);
 });
