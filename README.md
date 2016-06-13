@@ -34,7 +34,7 @@ predpona imena shranjenih datotek, čas, izbrani barvi in povprečna barva pa se
 Pri implementaciji smo uporabili MySQL bazo. Izvorna koda, ki vpisuje v bazo se nahaja v **server/database_insert.php**.
 Skripta **js/audioRecorder.js** vsebuje izvorno kodo, ki kliče funkcije za shranjevanje datotek in pisanje v podatkovno bazo.
 Nastavitve uporabniškega imena, gesla, ime strežnika in ime tabele so zapisane v **server/database_credentials.php**.
-Tabela za metaforične preslikave vsebuje naslednje stolpce:
+Tabela (aktivnost_p) za metaforične preslikave vsebuje naslednje stolpce:
 
 * cas - datetime
 * predpona - varchar(250)
