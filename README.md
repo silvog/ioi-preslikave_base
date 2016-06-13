@@ -54,7 +54,7 @@ Pri implementaciji projekta smo si pomagali s paketom [XAMPP - strežnik Apache 
 Celoten projekt, vsebino datoteke **ioi-preslikave_base-master** skopiramo v novo ustvarjeno datoteko (v nadaljevanju **preslikave**), ki se nahaja v **C:\xampp\htdocs** (Windows). 
 Poleg tega pa potrebujemo datoteko v katero se bodo shranjevale slike in audio posnetki uporabnikov. Za ta namen v **C:\xampp\htdocs** ustvarimo
 datoteko **preslikave_uploads**. Ob zagonu strežnika je aplikacija dosegljiva na naslovu **http://localhost:8080/preslikave/** (zadnji del naslova predstavlja 
-predhodno ustvarjeno datoteko v katero smo kopirali vsebino projekta). V primeru drugačne strukture datotek, je potrebno ustrezno poraviti 
+predhodno ustvarjeno datoteko v katero smo kopirali vsebino projekta). V primeru drugačne strukture datotek, je potrebno ustrezno popraviti 
 strukturo v datoteki **server/save.php** in **server/upload_images.php**.
 
 
