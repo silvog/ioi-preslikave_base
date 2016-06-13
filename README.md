@@ -46,7 +46,7 @@ Tabela (aktivnost_p) za metaforične preslikave vsebuje naslednje stolpce:
 V zadnjem koraku aplikacije se izvede koda skripte **js/colorNamePlaylist.js**, ki kliče **server/get_list.php** s katerim se pridobi
 seznam shranjenih datotek in izbranih barv uporabnika. Predponi imena datoteke, ki se prebere iz podatkovne baze, pripnemo
 **_user** in dobimo popolno ime datoteke - slike uporabika, ki je shranjena v datoteki **preslikave_uploads**. Sama predpona
-se uporabi za branje audio datoteke - izjava uporabika. Slika uporabika skupaj z izjavo in izbranimi barvami se prikaže skupaj na
+se uporabi za branje audio datoteke - izjava uporabika. Slika uporabika skupaj z izjavo in izbranimi barvami se prikaže na
 pogledu do prikaza naslednjega vnosa.
 
 ###Namestitev
