@@ -15,8 +15,8 @@ Pri implementaciji smo uporabili naslednje ključne knjižnice:
 
 Vsak .html dokument ima pripadajočo .js skripto. Po korakih aplikacije si dokumenti sledijo v naslednjem zaporedju:
 
-* index - faceTrackijg.js
-* introcudction - intrduction.js
+* index - faceTracking.js
+* introduction - introduction.js
 * colorPick - colorSelectSampler.js, colorSampler/color-sampler.min.js
 * colorNaming - colorNaming.js
 * colorNamePlaylist - colorNamePlaylist.js
