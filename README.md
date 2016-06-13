@@ -27,7 +27,7 @@ audio vhoda uporabnik klikne na gumb Start video s katerim izbere video vhod. Po
 ob katerem se zažene tudi zaznava obraza. Po uspešni zaznavi se uproabniku prikaže predstavitev projekta. V naslednjem koraku
 uporabnik izbere dve barvni točkovni vrednosti kateri se združita v povprečno barvo. Po potrditvi izbire uporabnik vstopi v korak
 v katerem mora poimenovati povprečno barvo. Na tem koraku se audio datoteka in slika uporabnika shrani na strežnik v datoteko **preslikave_uploads**,
-predpona imena shranjenih datotek, izbrani barvi in povprečna barva pa se shranijo v podatkovno bazo.
+predpona imena shranjenih datotek, čas, izbrani barvi in povprečna barva pa se shranijo v podatkovno bazo.
 
 
 ###Struktura baze
